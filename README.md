@@ -16,4 +16,4 @@ This project serves as a hands-on learning experience where I apply my current k
 - **Styling:** CSS Flexbox  
 
 ## 📸 Screenshots  
-*(https://github.com/user-attachments/assets/b73e6367-8b29-4e47-a73c-66fb1afc1663)*  
+*(https://i.postimg.cc/CM9Yd70Y/sappshire.jpg)*  
