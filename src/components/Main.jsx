@@ -23,16 +23,16 @@ export function Main() {
 
             <label htmlFor="location-dropdown"></label>
             <select name="location-dropdown" id="location-dropdown">
-              <option value="option1">Philippines</option>
-              <option value="option2">South Korea</option>
-              <option value="option3">Japan</option>
-              <option value="option4">Thailand</option>
-              <option value="option5">United States</option>
-              <option value="option6">United Kingdom</option>
-              <option value="option7">Vietnam</option>
-              <option value="option8">Nepal</option>
-              <option value="option9">Canada</option>
-              <option value="option10">Ireland</option>
+              <option value="Philippines">Philippines</option>
+              <option value="South Korea">South Korea</option>
+              <option value="Japan">Japan</option>
+              <option value="Thailand">Thailand</option>
+              <option value="United States">United States</option>
+              <option value="United Kingdom">United Kingdom</option>
+              <option value="Vietnam">Vietnam</option>
+              <option value="Nepal">Nepal</option>
+              <option value="Canada">Canada</option>
+              <option value="Ireland">Ireland</option>
             </select>
           </div>
 

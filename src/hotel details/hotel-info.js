@@ -1,29 +1,47 @@
-const ramdomPrice = Math.floor(Math.random() * 1000);
-const formattedPrice = ramdomPrice.toLocaleString('en-US', {
-  style: 'currency',
-  currency: 'USD'
+const countryCurrencyMap = {
+  "Philippines" : "PHP",
+  "South Korea" : "KRW",
+  "Japan" : "JPY",
+  "Thailand" : "THB", 
+  "United States" : "USD",
+  "United Kingdom" : "GBP",
+  "Vietnam" : "VND",
+  "Nepal" : "NPR",
+  "Canada" : "CAD",
+  "Ireland" : "EUR"
+}
+
+  document.querySelector('location-dropdown').addEventListener('change', () => {
+    const selectedCountry = this.value;
+    const currencyCode = countryCurrencyMap[selectedCountry] || "USD";
+
+    const ramdomPrice = Math.floor(Math.random() * 1000);
+    const formattedPrice = ramdomPrice.toLocaleString('en-US', {
+      style: 'currency',
+      currency: 'currencyCode'
 });
+  });
 
 const price1 = Math.floor(Math.random() * 1000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 
 const price2 = Math.floor(Math.random() * 2000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 const price3 = Math.floor(Math.random() * 3000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 const price4 = Math.floor(Math.random() * 4000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 const price5 = Math.floor(Math.random() * 5000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 
 

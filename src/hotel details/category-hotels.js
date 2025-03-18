@@ -1,22 +1,22 @@
 const price6 = Math.floor(Math.random() * 6000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 const price7 = Math.floor(Math.random() * 7000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 const price8 = Math.floor(Math.random() * 8000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 const price9 = Math.floor(Math.random() * 9000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 const price10 = Math.floor(Math.random() * 10000).toLocaleString('en-US', {
   style: 'currency',
-  currency: 'USD'
+  currency: 'PHP'
 });
 
 

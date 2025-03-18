@@ -1,7 +1,8 @@
 import hotels from "../hotel details/hotel-info";
+import { Main } from "./Main";
 
 
-export function Hotels() {
+export function Hotels(props) {
   return(
     <section className="hotels-main-con">
 
