@@ -1,3 +1,5 @@
+import { Main } from "../components/Main";
+
 const countryCurrencyMap = {
   "Philippines" : "PHP",
   "South Korea" : "KRW",
