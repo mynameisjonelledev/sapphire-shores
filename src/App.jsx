@@ -3,6 +3,7 @@ import { Main } from "./components/Main";
 import { Hotels } from "./components/Hotels";
 import { CategoryHotel } from "./components/CategoryHotel";
 import { PreFooter } from "./components/PreFooter";
+import { Footer } from "./components/Footer";
 
 export function App() {
   return(
@@ -12,6 +13,7 @@ export function App() {
     <Hotels />
     <CategoryHotel />
     <PreFooter />
+    <Footer />
     </>
   );
 }

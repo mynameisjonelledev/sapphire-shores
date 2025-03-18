@@ -7,12 +7,12 @@ export function PreFooter() {
       <div className="pre-branding">
         <div className="pre-branding-logo-con">
           <img src={icon} alt="logo" className="header-logo" />
-          <div className="pre-title">Sapphire Shores</div>
+          <div className="pre-title sapphire-footer">Sapphire Shores</div>
         </div>
       </div>
 
       <div className="pre-about-lists">
-        <div className="pre-title">About Us</div>
+        <div className="pre-title about">About Us</div>
         <div className="pre-about-list-text">Company Overview</div>
         <div className="pre-about-list-text">Our Mission & Values</div>
         <div className="pre-about-list-text">Careers</div>
@@ -21,7 +21,7 @@ export function PreFooter() {
       </div>
 
       <div className="pre-about-lists">
-        <div className="pre-title">Explore</div>
+        <div className="pre-title explore">Explore</div>
         <div className="pre-about-list-text">Destinations</div>
         <div className="pre-about-list-text">Specials Offers</div>
         <div className="pre-about-list-text">Last-Minute Deals</div>
@@ -30,7 +30,7 @@ export function PreFooter() {
       </div>
 
       <div className="pre-about-lists">
-        <div className="pre-title">Support</div>
+        <div className="pre-title support-title">Support</div>
         <div className="pre-about-list-text">Privacy Policy</div>
         <div className="pre-about-list-text">Terms & Conditions</div>
         <div className="pre-about-list-text">Accessibility</div>
@@ -39,14 +39,13 @@ export function PreFooter() {
       </div>
 
       <div className="pre-about-lists">
-        <div className="pre-title">Membership</div>
+        <div className="pre-title membership">Membership</div>
         <div className="pre-about-list-text">Loyalty Program</div>
         <div className="pre-about-list-text">Unlock Exclusive Offers</div>
         <div className="pre-about-list-text">Rewards & Benefits</div>
         <div className="pre-about-list-text">&nbsp;</div>
         <div className="pre-about-list-text">&nbsp;</div>
       </div>
-      
     </section>
   );
 }
