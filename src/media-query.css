@@ -1,47 +1,12 @@
 @media(max-width: 1024px) {
-  .header-title {
-    font-size: 19px;
-    width: 100%;
-  }
-
-  .button-links {
-    padding-right: 30px;
+  section,.prefooter-container {
+    display: none;
   }
 }
 
 @media(max-width:768px) {
-  .header-title {
-    font-size: 17px;
-    width: 100%;
+  section, .prefooter-container {
+    display:none
   }
-
-  .header-logo {
-    height: 50px;
-  }
-
-  .header-link-name {
-    font-size: 10px;
-  }
-
-  .button-links {
-    padding-left: 20px;
-  }
-
-  .header-register, .header-login {
-    padding: 6px 20px;
-    font-size: 10px;
-  }
-
-  .membership, .explore {
-    display: none;
-  }
-
-  .header-main-div {
-    height: 80px; 
-  }
-
-  .header-branding {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
+  
 }

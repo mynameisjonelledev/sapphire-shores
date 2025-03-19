@@ -75,6 +75,8 @@ export function Main() {
           </div>
         </div>
       </div>
+
+      <h1 className="request-div">Please visit the website using desktop! Thank you</h1>
     </section>
   );
 }
